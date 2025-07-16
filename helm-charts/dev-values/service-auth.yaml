@@ -4,10 +4,10 @@ image:
   pullPolicy: IfNotPresent
   repository: asia-south1-docker.pkg.dev/nice-virtue-463917-m0/service-auth/auth
   tag: 5-dev
-replicaCount: 2
+replicaCount: 1
 resources:
   limits:
-    cpu: 500m
+    cpu: 200m
     memory: 512Mi
   requests:
     cpu: 200m
