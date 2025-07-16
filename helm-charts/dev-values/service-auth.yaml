@@ -1,3 +1,5 @@
+serviceName: service-auth
+
 image:
   pullPolicy: IfNotPresent
   repository: asia-south1-docker.pkg.dev/nice-virtue-463917-m0/service-auth/auth
@@ -13,3 +15,8 @@ resources:
 service:
   port: 8080
   type: ClusterIP
+
+env:
+  service_auth:
+  - name: key1
+    value: value1
