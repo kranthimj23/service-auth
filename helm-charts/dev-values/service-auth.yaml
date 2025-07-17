@@ -1,22 +1,20 @@
-serviceName: service-auth
-
+env:
+  service_auth:
+  - name: key1
+    value: value1
 image:
   pullPolicy: IfNotPresent
   repository: asia-south1-docker.pkg.dev/nice-virtue-463917-m0/service-auth/auth
-  tag: 5-dev
-replicaCount: 2
+  tag: 6-dev
+replicaCount: 1
 resources:
   limits:
-    cpu: 1000m
-    memory: 256Mi
+    cpu: 200m
+    memory: 512Mi
   requests:
     cpu: 100m
     memory: 256Mi
 service:
   port: 8080
   type: ClusterIP
-
-env:
-  service_auth:
-  - name: key1
-    value: value1
+serviceName: service-auth
