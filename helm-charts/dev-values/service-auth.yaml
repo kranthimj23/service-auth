@@ -2,6 +2,8 @@ env:
   service_auth:
   - name: key2
     value: value1
+  - name: name
+    value: himanshu 
 image:
   pullPolicy: IfNotPresent
   repository: asia-south1-docker.pkg.dev/nice-virtue-463917-m0/service-auth/auth
