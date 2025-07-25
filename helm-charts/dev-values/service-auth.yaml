@@ -5,6 +5,7 @@ env:
   - name: name
     value: himanshu
 image:
+  imageName: asia-south1-docker.pkg.dev/nice-virtue-463917-m0/service-auth/auth:12-dev
   pullPolicy: IfNotPresent
   repository: asia-south1-docker.pkg.dev/nice-virtue-463917-m0/service-auth/auth:6.3.0-b12-release-r7.0.0-v1
   tag: 12-dev
