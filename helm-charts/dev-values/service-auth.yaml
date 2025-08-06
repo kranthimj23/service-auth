@@ -5,10 +5,10 @@ env:
   - name: name
     value: himanshu
 image:
-  imageName: asia-south1-docker.pkg.dev/nice-virtue-463917-m0/service-auth/auth:12-dev
+  imageName: asia-south1-docker.pkg.dev/nice-virtue-463917-m0/service-auth/auth:14-dev
   pullPolicy: IfNotPresent
   repository: asia-south1-docker.pkg.dev/nice-virtue-463917-m0/service-auth/auth
-  tag: 12-dev
+  tag: 14-dev
 replicaCount: 1
 resources:
   limits:
