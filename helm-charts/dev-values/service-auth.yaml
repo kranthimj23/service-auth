@@ -3,7 +3,9 @@ env:
   - name: key2
     value: value1
   - name: name
-    value: himanshu
+    value: Raj
+  - name: name
+    value: Surabhi
 image:
   imageName: asia-south1-docker.pkg.dev/nice-virtue-463917-m0/service-auth/auth:12-dev
   pullPolicy: IfNotPresent
