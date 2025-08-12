@@ -1,10 +1,11 @@
+
 env:
   service_auth:
   - name: key2
     value: value1
-  - name: name
+  - name: key3
     value: Surabhi
-  - name: name
+  - name: key4
     value: Raj
 image:
   imageName: asia-south1-docker.pkg.dev/nice-virtue-463917-m0/service-auth/auth:16-dev
