@@ -12,7 +12,7 @@ def ready():
 
 @app.route('/write')
 def write():
-    return jsonify({"msg": "Data written to Aerospike and PostgreSQL"})
+    return jsonify({"msg": "Data written to Service-auth"})
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', port=8080)
