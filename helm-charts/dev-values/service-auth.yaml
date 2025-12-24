@@ -7,10 +7,10 @@ env:
   - name: name
     value: Raj
 image:
-  imageName: asia-south1-docker.pkg.dev/nice-virtue-463917-m0/service-auth/auth:16-dev
+  imageName: us-central1-docker.pkg.dev/mobile-app-1-482109/service-admin/admin:34-dev
   pullPolicy: IfNotPresent
-  repository: asia-south1-docker.pkg.dev/nice-virtue-463917-m0/service-auth/auth
-  tag: 16-dev
+  repository: us-central1-docker.pkg.dev/mobile-app-1-482109/service-admin/admin
+  tag: 34-dev
 replicaCount: 1
 resources:
   limits:
