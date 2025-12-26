@@ -7,10 +7,10 @@ env:
   - name: name
     value: Raj
 image:
-  imageName: us-central1-docker.pkg.dev/mobile-app-1-482109/service-auth/user:41-dev
+  imageName: us-central1-docker.pkg.dev/mobile-app-1-482109/service-auth/auth:42-dev
   pullPolicy: IfNotPresent
-  repository: us-central1-docker.pkg.dev/mobile-app-1-482109/service-auth/user
-  tag: 41-dev
+  repository: us-central1-docker.pkg.dev/mobile-app-1-482109/service-auth/auth
+  tag: 42-dev
 replicaCount: 1
 resources:
   limits:
