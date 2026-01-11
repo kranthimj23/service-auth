@@ -7,10 +7,10 @@ env:
   - name: name
     value: Raj
 image:
-  imageName: us-central1-docker.pkg.dev/mobile-app-1-482109/service-auth/auth:49-dev
+  imageName: asia-south1-docker.pkg.dev/cloudlearnhub-gke-1546/demo-frontend/service-auth:1-dev
   pullPolicy: IfNotPresent
-  repository: us-central1-docker.pkg.dev/mobile-app-1-482109/service-auth/auth
-  tag: 49-dev
+  repository: asia-south1-docker.pkg.dev/cloudlearnhub-gke-1546/demo-frontend/service-auth
+  tag: 1-dev
 replicaCount: 1
 resources:
   limits:
