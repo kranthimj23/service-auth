@@ -5,19 +5,20 @@ env:
   - name: key3
     value: value3
   - name: name
-    value: kranthi
+    value: Shantanu
+  - name: name2
+    value: Diwakar
 image:
-  imageName: us-central1-docker.pkg.dev/mobile-app-1-482109/service-auth/auth:49-dev
+  imageName: us-central1-docker.pkg.dev/mobile-app-1-482109/service-auth/auth:9-dev
   pullPolicy: IfNotPresent
   repository: us-central1-docker.pkg.dev/mobile-app-1-482109/service-auth/auth
   tag: 49-dev
-replicaCount: 1
+replicaCount: 4
 resources:
   limits:
     cpu: 100m
     memory: 512Mi
   requests:
-    cpu: 100m
     memory: 256Mi
 service:
   port: 8080
