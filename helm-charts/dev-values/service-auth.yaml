@@ -1,13 +1,12 @@
 
 env:
   service_auth:
-  
-  - name: key3
-    value: value3
-  - name: name
-    value: Shantanu
-  - name: name2
-    value: Diwakar
+    - name: key3
+      value: value3
+    - name: name
+      value: Shantanu
+    - name: name2
+      value: Diwakar
 image:
   imageName: us-central1-docker.pkg.dev/mobile-app-1-482109/service-auth/auth:9-dev
   pullPolicy: IfNotPresent
