@@ -4,9 +4,9 @@ env:
     - name: key3
       value: value3
     - name: name
-      value: Not Shantanu
-    - name: name2
-      value: Diwakar
+      value: Shantanu
+    - name: movie
+      value: harry potter
 image:
   imageName: us-central1-docker.pkg.dev/mobile-app-1-482109/service-auth/auth:9-dev
   pullPolicy: IfNotPresent
