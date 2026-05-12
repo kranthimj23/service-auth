@@ -1,8 +1,5 @@
-
 env:
   service_auth:
-    - name: key3
-      value: value3
     - name: name
       value: Shantanu
     - name: movie
